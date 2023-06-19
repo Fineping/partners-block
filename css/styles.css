@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.carcass{
+    width:100%;
+    height: 100%;
+    /* border:1px solid red; */
+    margin-top:600px;
+    justify-content: center;
+    margin:auto;
+    background-color: black;
+    
+}
+
+
+h2{
+    color:rgb(255, 255, 255);
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+
+.flex-container{
+    width:100%;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border:1px solid rgb(156, 156, 228); */
+    padding-top:90px;
+}
+
+.flex-item{
+    width:15%;
+    height:100px;
+    /* border:1px solid rgb(112, 112, 112); */
+    min-width:150px;
+    margin-left:10px;
+    position: relative;
+    
+}
+
+
+/* .flex-container div:nth-child(even){
+    background: rgba(39, 37, 37, 0.8); 
+} */
+
+
+.flex-container div:hover{
+    background: rgba(39, 37, 37, 0.8); 
+}
+
+.flex-container div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: transform .5s; /* Animation */
+}
+
+.flex-container div img:hover{
+    /* transform: scale(1.0); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.item-1 img{
+    /* margin: 8% 10% 10% 17%; временное решение, верстка плывет в мобильном отображении*/
+      
+      position: absolute;
+      left: 50%;
+      top: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+.item-2{
+    /* background: linear-gradient(45deg, rgba(255, 176, 102, 0.8), rgb(145, 117, 74)); */
+}
+
+.item-3{
+    /* background: linear-gradient(45deg, rgba(145, 255, 102, 0.8), rgb(74, 145, 86)); */
+}
+
+.item-4{
+    /* background: linear-gradient(45deg, rgba(102, 255, 209, 0.8), rgb(74, 145, 136)); */
+}
+
+.item-5{
+    /* background: linear-gradient(45deg, rgba(102, 199, 255, 0.8), rgb(74, 125, 145)); */
+}
+
+.item-6{
+    /* background: linear-gradient(45deg, rgba(117, 102, 255, 0.8), rgb(101, 74, 145)); */
+}
+
+.item-7{
+    /* background: linear-gradient(45deg, rgba(255, 102, 247, 0.8), rgb(145, 74, 136)); */
+}
+
+.item-8{
+    /* background: linear-gradient(45deg, rgba(255, 227, 102, 0.8), rgb(145, 74, 74));  */
+}
